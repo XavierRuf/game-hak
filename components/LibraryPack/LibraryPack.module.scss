@@ -1,0 +1,29 @@
+.container {
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 35px;
+  width: 265px;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  margin-bottom: 32px;
+  z-index: 100;
+
+  .progressBar {
+    width: 140px;
+  }
+  .count {
+    margin-top: 4px;
+    font-weight: 500;
+  }
+}

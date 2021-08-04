@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 185px;
+
+  .title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    span {
+      font-style: normal;
+      font-size: 48px;
+    }
+  }
+
+  .pack {
+    display: flex;
+    justify-content: center;
+    margin-top: 108px;
+    a {
+      margin-left: 78px;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}

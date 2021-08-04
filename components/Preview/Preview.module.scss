@@ -1,0 +1,26 @@
+.preview {
+  display: flex;
+  justify-content: space-between;
+  .text {
+    .title {
+      font-weight: 900;
+      font-size: 57.4px;
+      font-family: Montserrat;
+      max-width: 444px;
+      line-height: 1.2;
+      margin-bottom: 24px;
+    }
+    .subtitle {
+      font-weight: 300;
+      margin-bottom: 32px;
+      font-size: 19px;
+      line-height: 1.8;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .canvas {
+    max-width: 585px;
+    width: 100%;
+  }
+}

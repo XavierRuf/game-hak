@@ -1,0 +1,16 @@
+.modal {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(5px);
+  background-color: #000;
+  pointer-events: none;
+  z-index: -100;
+  opacity: 0;
+  transition: opacity 1.5s linear;
+}
+
+.isOpened {
+  z-index: 10;
+  opacity: 0.8;
+  pointer-events: initial;
+}

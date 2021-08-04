@@ -1,0 +1,20 @@
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  margin-bottom: 20px;
+  width: 48px;
+  border-radius: 50%;
+  height: 48px;
+  background: #366eff;
+  box-shadow: 0px 18.8427px 28.2641px #366eff;
+  .count {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  user-select: none;
+}

@@ -1,0 +1,25 @@
+.button {
+  background: linear-gradient(92.73deg, #2260ff 2.97%, #26148f 95.55%);
+  box-shadow: 0px 20px 30px #294ed0;
+  border-radius: 36px;
+  padding: 18px 52px 18px 25px;
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+  &:hover {
+    box-shadow: 0px 10px 18px #294ed0;
+    transform: scale(1.05);
+  }
+  color: #ffffff;
+  svg {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+
+    transform: translateY(-50%);
+  }
+}
